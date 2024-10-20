@@ -1,0 +1,19 @@
+{
+  "name": "@anoncodes/ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild src/*.js src/*.jsx --outdir=dist --target=chrome95",
+    "dev": "esbuild src/*.js src/*.jsx --outdir=dist --target=chrome95 --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
+  }
+}
