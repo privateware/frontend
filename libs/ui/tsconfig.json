@@ -1,10 +1,25 @@
 {
-    "extends": "../../tsconfig.base.json", // config file path
+    "extends": "../../tsconfig.base.json",
     "compilerOptions": {
         "outDir": "../../dist/libs/ui",
         "rootDir": "./src",
-        "composite": true
+        "composite": true,
+        "target": "ES6",
+        "module": "ESNext",
+        "lib": ["DOM", "ESNext"],
+        "strict": true,
+        "jsx": "react",
+        "esModuleInterop": true,
+        "skipDefaultLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "declaration": true,
+        "declarationMap": true,
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["lib/*/src/*"]
+        }
     },
     "include": ["src/*.ts", "src/**/*.ts"],
-    "exclude": ["./node_modules", "./dist"],
+    "exclude": ["node_modules", "dist"]
 }
