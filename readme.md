@@ -5,18 +5,17 @@
 Bienvenue sur la documentation du projet Anoncodes Studio - Frontend. Vous pouvez trouver ici tout le descriptif du projet afin d'itérer convenablement sur le projet. Poursuivons vers [Table des Matières](#table-des-matières).
 
 ## Table des matières
-- [Avant Propos](#avant-propos)
-- [Table des matières](#table-des-matières)
-- [TODOs](#todos)
-- [Sources](#sources)
-- [Références](#références)
-- [Auteurs](#auteurs)
-- [Structure](#structure)
-- [Notes](#notes)
+- [Anoncodes Studio](#anoncodes-studio)
+  - [Avant Propos](#avant-propos)
+  - [Table des matières](#table-des-matières)
+  - [Todos](#todos)
+  - [Sources](#sources)
+  - [Références](#références)
+  - [Auteurs](#auteurs)
+  - [Structure](#structure)
+  - [Notes](#notes)
 
 ## Todos
-- ajouter typescript au dossier ui pour l'ui kit.
-- ajouter scss postcss au dossier ui pour l'ui kit.
 - ajouter un framework de test pour l'ui kit et toute la partie fonctionelle du front-end.
 
 ## Sources
