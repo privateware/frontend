@@ -1,0 +1,10 @@
+{
+    "extends": "../../tsconfig.base.json", // config file path
+    "compilerOptions": {
+        "outDir": "../../dist/libs/ui",
+        "rootDir": "./src",
+        "composite": true
+    },
+    "include": ["src/*.ts", "src/**/*.ts"],
+    "exclude": ["./node_modules", "./dist"],
+}
