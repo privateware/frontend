@@ -1,0 +1,42 @@
+// variables
+$button-color: #fff;
+$button-background-color: #007bff;
+$button-radius: 0.25em;
+$button-padding: 0.5em 2.5em;
+$button-font-size: medium;
+$button-border: none;
+$button-cursor: pointer;
+$button-hover-bg: darken($button-background-color, 10%);
+$button-active-bg: darken($button-background-color, 20%);
+$button-disabled-bg: lighten($button-background-color, 20%);
+$secondary-bg: #6c757d;
+
+button {
+    padding: $button-padding;
+    font-size: $button-font-size;
+    border-radius: $button-radius;
+    border: $button-border;
+    cursor: $button-cursor;
+
+    &:hover {
+        background-color: $button-hover-bg;
+    }
+
+    &:active {
+        background-color: $button-active-bg;
+    }
+
+    &:disabled {
+        background-color: $button-disabled-bg;
+    }
+
+    &.primary {
+        background-color: $button-background-color;
+        color: $button-color;
+    }
+
+    &.secondary {
+        background-color: $secondary-bg;
+        color: $button-color;
+    }
+}
