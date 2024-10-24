@@ -5,6 +5,9 @@
         "rootDir": "./src",
         "composite": true
     },
+    "path": {
+        "@/*": ["lib/ui/src/*"]
+    },
     "include": ["src/*.ts", "src/**/*.ts"],
     "exclude": ["./node_modules", "./dist"],
 }
