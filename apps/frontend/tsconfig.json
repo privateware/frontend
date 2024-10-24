@@ -19,7 +19,7 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@ui/*": ["../../libs/ui/src/*"]
+      "@ui/*": ["../../libs/ui/src/*.(ts|tsx|scss)"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
