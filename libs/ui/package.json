@@ -11,9 +11,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/react": "^18",
     "esbuild": "^0.24.0",
     "postcss-scss": "^4.0.9",
+    "sass": "^1.80.3",
     "typescript": "^5"
   },
   "peerDependencies": {

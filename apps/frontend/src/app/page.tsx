@@ -1,10 +1,12 @@
-import Button from "@ui/button";
-import React from "react";
+
+import Button from '@ui/Button';
+
 export default function Home() {
   return (
       <>
         <p>Hello,World!</p>
-        <Button primary={true}>Coucou</Button>
+        <Button primary={true}>coucou</Button>
+        <Button primary={false}>coucou</Button>
       </>
   );
 }
