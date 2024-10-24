@@ -1,5 +1,10 @@
+import Button from "@ui/button";
+import React from "react";
 export default function Home() {
   return (
-      <p>Hello,World!</p>
+      <React.Fragment>
+        <p>Hello,World!</p>
+        <Button>Coucou</Button>
+      </React.Fragment>
   );
 }
